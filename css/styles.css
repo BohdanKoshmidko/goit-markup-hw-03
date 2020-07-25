@@ -1,0 +1,139 @@
+body {
+    background-color: #ffffff;
+    color: #757575;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* Logo */
+.logo {
+    font-family: Raleway;
+    color: #2196F3;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo .part {
+    font-family: Raleway;
+    color: #000000;
+}
+
+.list {
+    list-style: none;
+}
+/* site-nav*/
+.site-nav .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/* site address*/
+.site-address .link {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-address .link:hover,
+.site-address .link:focus {
+    color: #2196F3;
+}
+
+/* Hero*/
+.hero .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* Section*/
+.section-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+/*Feature*/
+.feature-list .title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.feature-list .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    }
+
+/* Team*/
+.section .name-title {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.section .function {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* Portfolio */
+
+.portfolio .title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.portfolio .work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
