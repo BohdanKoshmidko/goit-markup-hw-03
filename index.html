@@ -6,220 +6,235 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>WebStudio</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
         <link rel="stylesheet" href="./css/styles.css">
+
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="./" class="logo">
-                    <span>Web <span class="part">Studio</span></span> 
-                </a>
-
-                <ul class="site-nav list">
-                    <li><a href="./index.html" class="link current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li><a href="#" class="link">Контакты</a></li>
-                </ul>
-            </nav>
-
-            <address class="site-address">
-                <img src="./images/envelope.svg">
-                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-                <img src="./images/mobile.svg" alt="">
-                <a href="tel:+380961111111" class="link"> +38 096 111 11 11</a>
-            </address>
+        <header class="page-header">
+            <div class="container main-nav">
+                <nav class="nav-cont">
+                    <a href="./" class="logo">
+                        <span>Web <span class="part">Studio</span></span> 
+                    </a>
+    
+                    <ul class="site-nav list">
+                        <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                        <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                        <li class="item"><a href="#" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+    
+                <address class="site-address">
+                    <img src="./images/envelope.svg">
+                    <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                    <img src="./images/mobile.svg" alt="">
+                    <a href="tel:+380961111111" class="link"> +38 096 111 11 11</a>
+                </address>
+            </div>  
         </header>
 
         <main>
             <section class="hero">
-                <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="title">Эффективные решения <br> для вашего бизнеса</h1>
                 <button>Заказать услугу</button>
             </section>
             
             <!-- Преимущества -->
             <section class="feature-list">
-                <ul class="list">
-                    <li>
-                        <img src="./images/Vector1.png" alt="Внимание к деталям">
-                        <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
-                        <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </li>
-                    <li>
-                        <img src="./images/Vector2.png" alt="Пунктуальность">
-                        <h3 class="title">ПУНКТУАЛЬНОСТЬ</h3>
-                        <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </li>
-                    <li>
-                        <img src="./images/Vector3.png" alt="Планирование">
-                        <h3 class="title">ПЛАНИРОВАНИЕ</h3>
-                        <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </li>
-                    <li>
-                        <img src="./images/vector4.png" alt="Современные технологии">
-                        <h3 class="title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-                        <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </li>
-                </ul>
+                <div class="container">
+                    <ul class="feature-content list">
+                        <li>
+                            <img src="./images/Vector1.png" alt="Внимание к деталям">
+                            <h3 class="title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                            <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <li>
+                            <img src="./images/Vector2.png" alt="Пунктуальность">
+                            <h3 class="title">ПУНКТУАЛЬНОСТЬ</h3>
+                            <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <li>
+                            <img src="./images/Vector3.png" alt="Планирование">
+                            <h3 class="title">ПЛАНИРОВАНИЕ</h3>
+                            <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <li>
+                            <img src="./images/vector4.png" alt="Современные технологии">
+                            <h3 class="title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                            <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                    </ul>
+                </div> 
             </section>
             
             <!-- Навыки -->
-            <section class="section">
-                <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <li>
-                        <img src="./images/img2.0.jpg" alt="Десктопные приложения" width="370"><p>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
-                    </li>
-                    <li>
-                        <img src="./images/img2.1.jpg" alt="Мобильные приложения" width="370"><p>МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
-                    </li>
-                    <li>
-                        <img src="./images/img2.2.jpg" alt="Дизайнерсике решения" width="370"><p>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
-                    </li>
-                </ul>
+            <section class="section-skills">
+                <div class="container">
+                    <h2 class="section-title">Чем мы занимаемся</h2>
+                    <ul class="skills-cont list">
+                        <li>
+                            <img src="./images/img2.0.jpg" alt="Десктопные приложения" width="370"><p>ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+                        </li>
+                        <li>
+                            <img src="./images/img2.1.jpg" alt="Мобильные приложения" width="370"><p>МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+                        </li>
+                        <li>
+                            <img src="./images/img2.2.jpg" alt="Дизайнерсике решения" width="370"><p>ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+                        </li>
+                    </ul>
+                </div>   
             </section>
             
             <!-- Команда -->
-            <section class="section">
-                <h2 class="section-title">Наша команда</h2>
-                <ul class="list">
-                    <li>
-                        <img src="./images/member1.jpg" alt="" width="270" height="260">
-                        <h3 class="name-title">Николай Кучеренко</h3>
-                        <p lang="en" class="function">Product Designer</p>
-                        <ul class="list">
-                            <li>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
-                            </li>
-                            <li><a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="./images/member2.jpg" alt="" width="270" height="260">
-                        <h3 class="name-title">Ольга Иванова</h3>
-                        <p lang="en" class="function">Frontend Developer</p>
-                        <ul class="list">
-                            <li>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="./images/member3.jpg" alt="" width="270" height="260">
-                        <h3 class="name-title">Андрей Шевченко</h3>
-                        <p lang="en" class="function">Marketing</p>
-                        <ul class="list">
-                            <li>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"> <img src="./images/instalogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <img src="./images/member4.jpg" alt="" width="270" height="260">
-                        <h3 class="name-title">Иван Николаев</h3>
-                        <p lang="en" class="function">UI Designer</p>
-                        <ul class="list">
-                            <li>
-                                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
-                            </li>
-                            <li>
-                                <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <section class="section-team">
+                <div class="container">
+                    <h2 class="section-title">Наша команда</h2>
+                    <ul class="team-cont list">
+                        <li class="about">
+                            <img src="./images/member1.jpg" alt="" width="270" height="260">
+                            <h3 class="name-title">Николай Кучеренко</h3>
+                            <p lang="en" class="function">Product Designer</p>
+                            <ul class="network-items list">
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="about">
+                            <img src="./images/member2.jpg" alt="" width="270" height="260">
+                            <h3 class="name-title">Ольга Иванова</h3>
+                            <p lang="en" class="function">Frontend Developer</p>
+                            <ul class="network-items list">
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="about">
+                            <img src="./images/member3.jpg" alt="" width="270" height="260">
+                            <h3 class="name-title">Андрей Шевченко</h3>
+                            <p lang="en" class="function">Marketing</p>
+                            <ul class="network-items list">
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"> <img src="./images/instalogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="about">
+                            <img src="./images/member4.jpg" alt="" width="270" height="260">
+                            <h3 class="name-title">Иван Николаев</h3>
+                            <p lang="en" class="function">UI Designer</p>
+                            <ul class="network-items list">
+                                <li>
+                                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </section>
 
             <!--Партнеры-->
-            <section class="section">
-                <h2 class="section-title">Постоянные клиенты</h2>
-                <ul class="list">
-                    <li> 
-                        <a href="#"><img src="./images/companylogo1.png" alt="YA & CO"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/companylogo2.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/compaylogo3.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/companylogo4.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/companylogo5.png" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/companylogo6.png" alt=""></a>
-                    </li>
-                </ul>
+            <section class="section-partners">
+                <div class="container">
+                    <h2 class="section-title">Постоянные клиенты</h2>
+                    <ul class="list">
+                        <li> 
+                            <a href="#"><img src="./images/companylogo1.png" alt="YA & CO"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/companylogo2.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/compaylogo3.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/companylogo4.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/companylogo5.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./images/companylogo6.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         
         <footer>
-            <div>
-                <a href="./" class="logo">
-                    <span>Web <span class="part">Studio</span></span> 
-                </a>
-                <address>
-                    <span>г. Киев, пр-т Леси Украинки, 26</span>
-                    <span>info@example.com</span>
-                    <span>+38 099 111 11 11</span>
-                </address>
-            </div>
-            <div>
-                <ul class="list">
-                    <span>ПРИСОЕДЕНЯЙТЕСЬ</span>
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
-                    </li>
-                    <li>
-                        <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <form action="textarea1.php" method="post">
-                    <p><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ:</b></p>
-                    <p><textarea rows="2" cols="45" name="text"></textarea></p>
-                    <p><input type="submit" value="Подписаться"></p>
-                  </form>
+            <div class="container">
+                <div>
+                    <a href="./" class="logo">
+                        <span>Web <span class="part">Studio</span></span> 
+                    </a>
+                    <address>
+                        <span>г. Киев, пр-т Леси Украинки, 26</span>
+                        <span>info@example.com</span>
+                        <span>+38 099 111 11 11</span>
+                    </address>
+                </div>
+                <div>
+                    <ul class="list">
+                        <span>ПРИСОЕДЕНЯЙТЕСЬ</span>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Instagram"><img src="./images/instalogo.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer" aria-label="ссылка Twitter"><img src="./images/twitlogo.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Facebook"><img src="./images/facelogo.png"></a>
+                        </li>
+                        <li>
+                            <a href="https://ru.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="ссылка Linkedin"><img src="./images/linkedinlogo.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form action="textarea1.php" method="post">
+                        <p><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ:</b></p>
+                        <p><textarea rows="2" cols="45" name="text"></textarea></p>
+                        <p><input type="submit" value="Подписаться"></p>
+                      </form>
+                </div>
             </div>
         </footer>
     </body>
