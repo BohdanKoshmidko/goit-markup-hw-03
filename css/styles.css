@@ -390,6 +390,7 @@ display: none;
 
 .filtrs .btn-list {
     display: flex;
+    margin-top: 93px;
 }
 
 .btn-list .btn {
@@ -402,8 +403,27 @@ display: none;
 
 /* Портфолио */
 
-.portfolio-list .info {
+.portfolio {
+    margin-top: 50px;
+    margin-bottom: 94px;
+}
+
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    width: 370px;
+} 
+
+.portfolio-list .info {
+    width: calc((100% - 60px) / 3);
+    background-color: tomato;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.portfolio-list .info:nth-child(3n) {
+    margin-right: 0;
+}
+
+.portfolio-list .info:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
