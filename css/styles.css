@@ -132,6 +132,8 @@ p {
 /* Hero*/
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero .title {
     margin-top: 0;
@@ -194,7 +196,7 @@ p {
 
 .section-skills {
     margin-top: 0;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .skills-cont {
@@ -236,7 +238,7 @@ p {
 
 .network-items {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
     margin-top: 30px;
 }
 
@@ -274,7 +276,7 @@ p {
 
 .partners-cont {
     display: flex;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
 .partners-cont .partnes-logo {
@@ -290,15 +292,16 @@ p {
 /* Footer*/
  footer{
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
  }
 
  .container.footer {
      display: flex;
+     justify-content: space-evenly;
  }
 
  .footer-first {
-    padding-top: 60px;
-    padding-bottom: 60px;
     margin-right: 70px;
 }
 
@@ -319,8 +322,8 @@ p {
 }
 
 .footer-second {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     margin-right: 95px;
 }
 .footer-second .info{
@@ -337,8 +340,8 @@ p {
 }
 
 .footer-third {
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 footer .letsgo {
     color: #FFFFFF;
@@ -392,6 +395,9 @@ display: none;
     display: flex;
     margin-top: 93px;
 }
+.btn-list {
+    justify-content: center;
+}
 
 .btn-list .btn {
     margin-right: 8px;
@@ -426,4 +432,19 @@ display: none;
 
 .portfolio-list .info:nth-last-child(-n+3) {
     margin-bottom: 0;
+}
+
+.portfolio .text {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.portfolio .title {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.portfolio .work {
+    padding-left: 24px;
+    padding-right: 24px;
 }
